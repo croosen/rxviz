@@ -67,7 +67,7 @@ export default class extends Component {
       <div className="editor" ref={this.storeContainer}>
         <style jsx>{`
           .editor {
-            flex: 1 0 50%;
+            flex: 1 0 60%;
             overflow: auto;
             background-color: #282c34;
             padding-top: 6px;
