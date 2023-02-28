@@ -114,7 +114,7 @@ export default class extends Component {
         <style jsx>{`
           .output {
             display: flex;
-            flex: 1 0 50%;
+            flex: 1 0 40%;
             min-width: 0; /* https://stackoverflow.com/q/44192057/247243 */
             background-color: #fff;
           }

@@ -264,7 +264,8 @@ export default class extends Component {
                     flex-shrink: 0;
                   }
                   .inner-container {
-                    flex: 1 1 50%;
+                    justify-content: flex-end;
+                    flex: 0 0 100%;
                   }
                   .second-inner-container {
                     display: flex;
