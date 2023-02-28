@@ -2,7 +2,6 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactGA from 'react-ga';
 import Head from 'next/head';
-import Header from './Header';
 import Sidebar from './Sidebar';
 
 export default class extends Component {
@@ -14,7 +13,7 @@ export default class extends Component {
   };
 
   static defaultProps = {
-    renderSidebar: true,
+    renderSidebar: false,
     title: 'Animated playground for Rx Observables'
   };
 
@@ -56,7 +55,6 @@ export default class extends Component {
           />
           <style>{`body { margin: 0; }`}</style>
         </Head>
-        <Header />
         <div className="inner-container">
           {renderSidebar ? (
             <Sidebar activeItemId={sidebarActiveItemId} />
